@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaraamDev | Главная</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            padding: 3.5rem;
+            border-radius: 24px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            text-align: center;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            max-width: 600px;
+        }
+        .logo {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .tagline {
+            color: #94a3b8;
+            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+        }
+        .nav-links a {
+            color: #f8fafc;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 12px 28px;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .nav-links a:hover {
+            background: #38bdf8;
+            color: #0f172a;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo">KaraamDev</div>
+        <p class="tagline">Инновационные решения в мире веб-разработки</p>
+        <div class="nav-links">
+            <a href="/order" style="background: #38bdf8; color: #0f172a; border-color: #38bdf8; margin-right: 15px;">Заказать проект</a>
+            <a href="/about" style="margin-right: 15px;">О компании</a>
+            <a href="/contact">Связаться</a>
+        </div>
+    </div>
+</body>
+</html>
